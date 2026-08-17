@@ -1,77 +1,59 @@
 <!DOCTYPE html>
-<html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>L.A. Consultoria</title>
-<style>
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-body{font-family:Calibri, Arial, sans-serif;background:#f4f5f7;color:#455a64;line-height:1.6}
-header{background:#ffffff;border-bottom:3px solid #37474f;padding:0 40px;display:flex;align-items:center;justify-content:space-between;height:60px;position:sticky;top:0;z-index:10}
-header h1{font-family:Calibri, 'Gill Sans', sans-serif;font-size:1rem;font-weight:900;color:#263238;letter-spacing:.02em}
-nav ul{list-style:none;display:flex;gap:32px}
-nav a{color:#37474f;text-decoration:none;font-size:.85rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase}
-nav a:hover{color:#263238}
-.hero{display:grid;grid-template-columns:1fr 380px;min-height:480px}
-.hero-left{background:#f4f5f7;padding:64px 40px 64px 40px;display:flex;flex-direction:column;justify-content:center}
-.hero-eyebrow{font-size:.75rem;letter-spacing:.18em;color:#37474f;text-transform:uppercase;font-weight:700;margin-bottom:16px}
-.hero-left h2{font-family:Calibri, 'Gill Sans', sans-serif;font-size:2.6rem;font-weight:900;color:#263238;line-height:1.15;margin-bottom:20px}
-.hero-left h2 em{color:#37474f;font-style:normal}
-.hero-left p{color:#455a64;font-size:1rem;max-width:480px;margin-bottom:32px;line-height:1.75}
-.hero-cta{display:inline-block;background:#37474f;color:white;padding:14px 32px;text-decoration:none;font-weight:700;font-size:.9rem;letter-spacing:.04em;text-transform:uppercase;transition:background .2s}
-.hero-cta:hover{background:#263238}
-.hero-right{background:#37474f;color:#ffffff;padding:48px 36px;display:flex;flex-direction:column;justify-content:center;gap:24px}
-.hero-right h3{font-family:Calibri, 'Gill Sans', sans-serif;font-size:1rem;font-weight:700;opacity:.7;text-transform:uppercase;letter-spacing:.1em;margin-bottom:4px}
-.info-item{border-bottom:1px solid rgba(255,255,255,.15);padding-bottom:16px}
-.info-item:last-child{border-bottom:none;padding-bottom:0}
-.info-label{font-size:.75rem;opacity:.65;text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px}
-.info-value{font-size:1rem;font-weight:600}
-.section{max-width:960px;margin:72px auto;padding:0 40px}
-.section-label{font-size:.75rem;letter-spacing:.15em;text-transform:uppercase;color:#37474f;font-weight:700;margin-bottom:12px}
-.section h2{font-family:Calibri, 'Gill Sans', sans-serif;font-size:1.7rem;font-weight:900;color:#263238;margin-bottom:40px}
-.srv-row{display:flex;gap:24px;align-items:flex-start;padding:24px 0;border-bottom:1px solid #eceff1}
-.srv-row:last-child{border-bottom:none}
-.srv-num{font-family:Calibri, 'Gill Sans', sans-serif;font-size:2rem;font-weight:900;color:#37474f;opacity:.3;min-width:56px;line-height:1}
-.srv-body h4{font-family:Calibri, 'Gill Sans', sans-serif;font-size:1rem;font-weight:700;color:#263238;margin-bottom:6px}
-.srv-body p{font-size:.9rem;color:#455a64;line-height:1.65}
-.sobre-grid{display:grid;grid-template-columns:1fr 320px;gap:48px;align-items:start}
-.sobre-text p{color:#455a64;line-height:1.85;margin-bottom:16px}
-.stats-panel{background:#eceff1;border-left:4px solid #37474f;padding:28px}
-.stats-panel p{font-size:.88rem;color:#455a64;margin-bottom:10px;line-height:1.5}
-.stats-panel p strong{color:#263238;display:block;font-size:.75rem;text-transform:uppercase;letter-spacing:.06em}
-.contato-box{background:#eceff1;border-left:4px solid #37474f;padding:32px;max-width:560px}
-.contato-box p{font-size:.95rem;color:#455a64;margin-bottom:12px;line-height:1.6}
-.contato-box a{color:#37474f;text-decoration:none;font-weight:600}
-footer{background:#263238;color:#78909c;padding:28px 40px;display:flex;justify-content:space-between;align-items:center;font-size:.8rem;margin-top:80px}
-@media(max-width:800px){.hero{grid-template-columns:1fr}.hero-right{display:none}.sobre-grid{grid-template-columns:1fr}nav{display:none}}
-</style></head><body>
-<header><h1>L.A. Consultoria</h1><nav><ul><li><a href="#servicos">Serviços</a></li><li><a href="#sobre">Sobre</a></li><li><a href="#contato">Contato</a></li></ul></nav></header>
-<div id="hero" class="hero">
-  <div class="hero-left">
-    <p class="hero-eyebrow">Consultoria · Administrativo · Eficiência</p>
-    <h2>Soluções <em>administrativas</em> que impulsionam sua <em>gestão</em></h2>
-    <p>A L.A. Consultoria oferece serviços integrados de escritório e apoio administrativo para empresas que buscam otimizar processos e reduzir custos operacionais. Transformamos desafios administrativos em oportunidades de crescimento e eficiência.</p>
-    <a href="#contato" class="hero-cta">Agendar reunião</a>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to humanhealthinitiative.online</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Arial, sans-serif; background: #f9f9f9; color: #333; }
+    header { background: #1a1a2e; color: white; padding: 18px 32px; }
+    header h1 { font-size: 1.3rem; font-weight: 600; }
+    .hero { background: #16213e; color: white; padding: 64px 32px; text-align: center; }
+    .hero h2 { font-size: 2rem; margin-bottom: 16px; }
+    .hero p { font-size: 1.1rem; color: #a8b2c1; max-width: 600px; margin: 0 auto; }
+    .content { max-width: 900px; margin: 48px auto; padding: 0 32px; }
+    .content h3 { font-size: 1.3rem; margin-bottom: 12px; color: #1a1a2e; }
+    .content p { margin-bottom: 16px; line-height: 1.7; color: #555; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 24px; margin: 40px 0; }
+    .card { background: white; border-radius: 10px; padding: 24px; box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+    .card h4 { margin-bottom: 8px; color: #1a1a2e; }
+    .card p { font-size: .9rem; color: #666; }
+    footer { background: #1a1a2e; color: #7a8899; text-align: center; padding: 24px; font-size: .82rem; margin-top: 64px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>humanhealthinitiative.online</h1>
+  </header>
+  <div class="hero">
+    <h2>Health &amp; Wellness Solutions</h2>
+    <p>Providing quality health and wellness information and services to help you live your best life.</p>
   </div>
-  <div class="hero-right">
-    <h3>L.A. Consultoria</h3>
-    <div class="info-item"><div class="info-label">Fundação</div><div class="info-value">2026</div></div>
-    <div class="info-item"><div class="info-label">Localização</div><div class="info-value">Curitiba — PR</div></div>
-    
-    <div class="info-item"><div class="info-label">CNPJ</div><div class="info-value">66.143.576/0001-16</div></div>
+  <div class="content">
+    <h3>About Us</h3>
+    <p>We are a health and wellness company dedicated to providing evidence-based information and high-quality products to support your journey toward better health.</p>
+    <p>Our team of professionals is committed to helping individuals achieve their health goals through natural, effective, and scientifically supported approaches.</p>
+    <div class="cards">
+      <div class="card">
+        <h4>Expert Guidance</h4>
+        <p>Access information reviewed by health professionals to make informed decisions.</p>
+      </div>
+      <div class="card">
+        <h4>Natural Solutions</h4>
+        <p>We focus on natural, sustainable approaches to health and wellness.</p>
+      </div>
+      <div class="card">
+        <h4>Trusted Quality</h4>
+        <p>All our products and content meet the highest standards of quality and safety.</p>
+      </div>
+    </div>
+    <h3>Our Mission</h3>
+    <p>To empower individuals with the knowledge and tools they need to take control of their health and achieve lasting wellness. We believe that everyone deserves access to quality health information and solutions.</p>
   </div>
-</div>
-<div id="servicos" class="section"><p class="section-label">Competências</p><h2>Onde podemos ajudar</h2><div class="srv-row"><div class="srv-num">01</div><div class="srv-body"><h4>Gestão Administrativa</h4><p>Estruturamos e otimizamos processos administrativos da sua empresa para maior produtividade.</p></div></div><div class="srv-row"><div class="srv-num">02</div><div class="srv-body"><h4>Apoio Administrativo</h4><p>Fornecemos suporte completo em rotinas de escritório, documentação e organização operacional.</p></div></div><div class="srv-row"><div class="srv-num">03</div><div class="srv-body"><h4>Consultoria Empresarial</h4><p>Diagnósticos estratégicos e recomendações personalizadas para melhorar a eficiência administrativa.</p></div></div><div class="srv-row"><div class="srv-num">04</div><div class="srv-body"><h4>Terceirização de Serviços</h4><p>Delegue atividades administrativas rotineiras e concentre-se no core business da sua empresa.</p></div></div></div>
-<div id="sobre" class="section"><p class="section-label">Sobre a empresa</p><h2>Quem somos</h2>
-<div class="sobre-grid">
-  <div class="sobre-text"><p>A L.A. Consultoria é uma empresa especializada em serviços combinados de escritório e apoio administrativo, localizada em Curitiba. Com foco em excelência operacional, ajudamos empresas de todos os portes a organizarem seus processos e reduzirem despesas administrativas.</p><p>Nossa equipe experiente compreende as necessidades do mercado curitibano e oferece soluções personalizadas que se adaptam a cada cliente. Acreditamos que uma administração eficiente é a base para o sucesso empresarial sustentável.</p></div>
-  <div class="stats-panel">
-    <p><strong>Razão Social</strong>L.A. Consultoria Ltda</p>
-    <p><strong>CNPJ</strong>66.143.576/0001-16</p>
-    <p><strong>Estado</strong>Paraná</p>
-    <p><strong>Situação</strong>✅ Ativa</p>
-  </div>
-</div></div>
-<div id="contato" class="section"><p class="section-label">Fale conosco</p><h2>Contato</h2>
-<div class="contato-box">
-  <p>Entre em contato e saiba como podemos apoiar o seu negócio.</p>
-  <p><strong>Telefone:</strong> <a href="tel:+554197053847">(41) 9705-3847</a></p><p><strong>Endereço:</strong> R. Padre Anchieta, 2224, Bigorrilho, Curitiba — PR, CEP 80730-001</p>
-</div></div>
-<footer><span>L.A. Consultoria — CNPJ 66.143.576/0001-16</span><span>© 2026–2026 L.A. Consultoria Ltda</span></footer>
-</body></html>
+  <footer>
+    <p>&copy; 2026 humanhealthinitiative.online. All rights reserved.</p>
+    <p style="margin-top:8px">This website provides general health information only and is not a substitute for professional medical advice.</p>
+  </footer>
+</body>
+</html>
